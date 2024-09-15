@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Marvel vs DC</string>
+
+    <string name="app_usuario">Usuario</string>
+
+    <string name="app_contrasenia">Contraseña</string>
+
+    <string name="app_registrate">Registrate</string>
+</resources>

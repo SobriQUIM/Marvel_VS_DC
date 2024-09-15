@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Nombre del personaje -->
+        <TextView
+            android:id="@+id/personajeDetailName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Personaje"
+            android:textSize="24sp"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"/>
+
+        <!-- Publisher ID del personaje -->
+        <TextView
+            android:id="@+id/personajeDetailPublisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Publisher ID"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"/>
+
+        <!-- Imagen del personaje -->
+        <ImageView
+            android:id="@+id/personajeDetailImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="Imagen del personaje"
+            android:paddingBottom="16dp" />
+
+        <!-- Botón para volver -->
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    background="@drawable/img.png">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/ic_android_black_24dp"
+        />
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/app_usuario"
+        android:layout_marginTop="50dp"
+        android:layout_margin="25dp"/>
+
+    <EditText
+        android:id="@+id/contrasenia"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/app_contrasenia"
+        android:layout_margin="25dp"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/redondear_boton"
+        android:shadowRadius="40"
+        android:layout_margin="50dp"
+        android:text="@string/app_registrate"
+        android:textSize="35dp"
+        android:textColor="@color/Principal"/>
+
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/purple_200">
+
+
+    <!-- Lista 2: Personajes de DC -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personajes de DC"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="8dp"
+        android:textColor="@color/white" />
+
+    <!-- RecyclerView para la lista de personajes de Marvel -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/marvel_characters_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="horizontal" />
+
+
+
+
+    <!-- Lista 1: Personajes de Marvel -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personajes de Marvel"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="8dp"
+        android:textColor="@color/white" />
+    <!-- RecyclerView para la lista de personajes de DC -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dc_characters_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="horizontal" />
+
+</LinearLayout>
